@@ -4,7 +4,7 @@ This Search Engine is a project designed to process and search through a dataset
 
 ### Functionality:
 
-## Preprocessing
+#### Preprocessing
 
 To improve search efficiency, we preprocess the metadata into dictionaries using the following functions:
 
@@ -12,7 +12,7 @@ To improve search efficiency, we preprocess the metadata into dictionaries using
 
 - keyword_to_titles(metadata): Converts the article metadata into a dictionary where each keyword maps to a list of article titles that contain that keyword.
 
-## Basic Search
+#### Basic Search
 
 The basic search functionality involves:
 
@@ -20,7 +20,7 @@ The basic search functionality involves:
 - Search Logic: Searches the preprocessed data for articles containing the user-provided keyword.
 - Output: Returns a list of article titles where a match was found. If no results are found or if the user does not provide a keyword, returns an empty list.
 
-## Advanced Search
+#### Advanced Search
 
 After the basic search, users can perform advanced searches based on the following options:
 
@@ -31,7 +31,7 @@ After the basic search, users can perform advanced searches based on the followi
 - Articles from Year: Filters results to include only articles published in a specified year.
 - None: No additional filtering; returns basic search results.
 
-### Files:
+#### Files:
 
 `search.py`: performs a search (for any of the parts). To do so, input a word when prompted, choose an advanced option, and input an appropriate response to the advanced option question.
 
